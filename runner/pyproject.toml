@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "runner"
+version = "0.1.0"
+description = "Python implementation of video analytics runner service"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiokafka = "^0.10.0"
+minio = "^7.2.5"
+sqlmodel = "^0.0.16"
+asyncpg = "^0.29.0"
+aiohttp = "^3.9.3"
+pyyaml = "^6.0"
+boto3 = "^1.34.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
